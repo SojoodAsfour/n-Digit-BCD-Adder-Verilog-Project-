@@ -1,0 +1,647 @@
+$date
+Thu May 29 20:33:17 2025
+$end
+$version
+Aldec HDL Simulator Version 15.0.261
+$end
+$timescale
+1 ps
+$end
+
+$scope module tb_BCD_Adder_ndigit $end
+$var wire 12 ! Sum_Ripple [11:0] $end
+$var wire 12 " Sum_CLA [11:0] $end
+$var wire 12 # expected_Sum [11:0] $end
+$var wire 1 $ Cout_Ripple $end
+$var wire 1 % Cout_CLA $end
+$var wire 1 & expected_cout $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst $end
+$var reg 1 ) cin $end
+$var reg 12 * A [11:0] $end
+$var reg 12 + B [11:0] $end
+$var reg 1 , test_cin [0:0] $end
+$var integer 32 - i $end
+$var reg 1 . flag $end
+$var parameter 32 / n [31:0] $end
+
+$scope module ripple_adder $end
+$var reg 12 0 Sum [11:0] $end
+$var reg 1 1 Cout $end
+$var reg 12 2 A_reg [11:0] $end
+$var reg 12 3 B_reg [11:0] $end
+$var reg 1 4 Cin_reg $end
+$var parameter 32 5 n [31:0] $end
+
+$scope begin bcd_1digit[0] $end
+$var parameter 32 6 i [31:0] $end
+
+$scope module bcd $end
+
+$scope module adder1 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 7 i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 8 i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 9 i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 : i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module adder2 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 ; i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 < i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 = i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 > i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin bcd_1digit[1] $end
+$var parameter 32 ? i [31:0] $end
+
+$scope module bcd $end
+
+$scope module adder1 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 @ i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 A i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 B i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 C i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module adder2 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 D i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 E i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 F i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 G i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin bcd_1digit[2] $end
+$var parameter 32 H i [31:0] $end
+
+$scope module bcd $end
+
+$scope module adder1 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 I i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 J i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 K i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 L i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module adder2 $end
+
+$scope begin addbit[0] $end
+$var parameter 32 M i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[1] $end
+$var parameter 32 N i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[2] $end
+$var parameter 32 O i [31:0] $end
+$upscope $end
+
+
+$scope begin addbit[3] $end
+$var parameter 32 P i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module cla_adder $end
+$var reg 12 Q Sum [11:0] $end
+$var reg 1 R Cout $end
+$var reg 12 S A_reg [11:0] $end
+$var reg 12 T B_reg [11:0] $end
+$var reg 1 U Cin_reg $end
+$var parameter 32 V n [31:0] $end
+
+$scope begin bcd_1digit[0] $end
+$var parameter 32 W i [31:0] $end
+
+$scope module bcd $end
+
+$scope module add1 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 X i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 Y i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 Z i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 [ i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 \ i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 ] i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 ^ i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 _ i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module add2 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 ` i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 a i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 b i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 c i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 d i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 e i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 f i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 g i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin bcd_1digit[1] $end
+$var parameter 32 h i [31:0] $end
+
+$scope module bcd $end
+
+$scope module add1 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 i i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 j i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 k i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 l i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 m i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 n i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 o i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 p i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module add2 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 q i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 r i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 s i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 t i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 u i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 v i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 w i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 x i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope begin bcd_1digit[2] $end
+$var parameter 32 y i [31:0] $end
+
+$scope module bcd $end
+
+$scope module add1 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 z i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 { i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 | i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 } i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 ~ i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 !! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 "! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 #! i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module add2 $end
+
+$scope begin GP_signal[0] $end
+$var parameter 32 $! i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[1] $end
+$var parameter 32 %! i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[2] $end
+$var parameter 32 &! i [31:0] $end
+$upscope $end
+
+
+$scope begin GP_signal[3] $end
+$var parameter 32 '! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[0] $end
+$var parameter 32 (! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[1] $end
+$var parameter 32 )! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[2] $end
+$var parameter 32 *! i [31:0] $end
+$upscope $end
+
+
+$scope begin generate_sum[3] $end
+$var parameter 32 +! i [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+
+$scope module behavioral_adder $end
+$var reg 12 ,! Sum [11:0] $end
+$var reg 1 -! Cout $end
+$var integer 32 .! i $end
+$var reg 4 /! a_digit [3:0] $end
+$var reg 4 0! b_digit [3:0] $end
+$var reg 5 1! temp [4:0] $end
+$var reg 1 2! carry $end
+$var parameter 32 3! n [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b0 !
+b0 "
+b0 #
+0$
+0%
+0&
+0'
+1(
+x)
+bx *
+b110011000 +
+b1 ,
+bx -
+1.
+b11 /
+b11 5
+b0 6
+b0 7
+b1 8
+b10 9
+b11 :
+b0 ;
+b1 <
+b10 =
+b11 >
+b1 ?
+b0 @
+b1 A
+b10 B
+b11 C
+b0 D
+b1 E
+b10 F
+b11 G
+b10 H
+b0 I
+b1 J
+b10 K
+b11 L
+b0 M
+b1 N
+b10 O
+b11 P
+b11 V
+b0 W
+b0 X
+b1 Y
+b10 Z
+b11 [
+b0 \
+b1 ]
+b10 ^
+b11 _
+b0 `
+b1 a
+b10 b
+b11 c
+b0 d
+b1 e
+b10 f
+b11 g
+b1 h
+b0 i
+b1 j
+b10 k
+b11 l
+b0 m
+b1 n
+b10 o
+b11 p
+b0 q
+b1 r
+b10 s
+b11 t
+b0 u
+b1 v
+b10 w
+b11 x
+b10 y
+b0 z
+b1 {
+b10 |
+b11 }
+b0 ~
+b1 !!
+b10 "!
+b11 #!
+b0 $!
+b1 %!
+b10 &!
+b11 '!
+b0 (!
+b1 )!
+b10 *!
+b11 +!
+b11 3!
+$end
+#5
+1'
+#10
+0'
+#12
+0(
+b0 -
+b101110011 *
+1)
+#15
+1'
+b1101110010 #
+x%
+bx "
+x$
+bx !
+#20
+0'
+#25
+1'
+#30
+0'
+#35
+1'
+0.
+b1 -

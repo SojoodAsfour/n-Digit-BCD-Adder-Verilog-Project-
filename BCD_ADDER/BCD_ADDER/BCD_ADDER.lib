@@ -1,0 +1,183 @@
+timestamp=1749808626064
+
+[~A]
+C:/Users/sojou/OneDrive/Desktop/advanced/Project/BCD_ADDER/src/design.v=0*712201*714633
+C:/Users/sojou/OneDrive/Desktop/advanced/Project/BCD_ADDER/src/design.v_test.v=0*717903*721398
+C:/Users/sojou/OneDrive/Desktop/advanced/Project/BCD_ADDER/src/test.v=0*707704*709238
+LastVerilogToplevel=BCD_Adder_Test_All
+ModifyID=143
+Version=74
+
+[~MFT]
+0=14|0BCD_ADDER.mgf|721398|430355
+1=20|1BCD_ADDER.mgf|2649925|2598800
+3=40|3BCD_ADDER.mgf|1782249|1741863
+
+[$root]
+A/$root=22|||1*2626973
+BinW64/$root=3*1766155
+SLP=3*1766270
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216573ed6cd3b694b5ec5a783bdf2b672c8
+
+[BCD1_digit]
+A/BCD1_digit=22|../src/design.v|34|1*2631069
+BinW64/BCD1_digit=3*1767643
+R=../src/design.v|34
+SLP=3*1768070
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1734819d775a36c1e56d7ed57c4d34d5379b8e1f2d43253a39a7fa6d5bdbefc1c48b62777c57ccc8d9a2edce270a4dc5
+
+[BCD1_digit_error]
+A/BCD1_digit_error=22|../src/design.v|42|1*864329
+BinW64/BCD1_digit_error=3*540251
+R=../src/design.v|42
+SLP=3*540693
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d3727cbb9d0400657d39c872ae1c837d27f2165a803eab6e97801dbcd0b952b1029ada172456000fb3eddbc98685c6a3
+
+[BCD_Adder_Test_All]
+A/BCD_Adder_Test_All=22|../src/test.v|6|1*2649925
+BinW64/BCD_Adder_Test_All=3*1779272
+R=../src/test.v|6
+SLP=3*1782249
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|de940689b45522377596f1954d42d1a47d13153db36081e323e054f714e3e1e3ea85d97a3abb8646f0605586d450e493
+
+[BCD_Adder_ndigit]
+A/BCD_Adder_ndigit=22|../src/design.v|61|1*102765
+BinW64/BCD_Adder_ndigit=3*44256
+R=../src/design.v|61
+SLP=3*46344
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dc8c6d108cc3687cac2088d44b5a64d741129068dfd538384ebd5697989eb7862c
+
+[BCD_Adder_ndigit_Behavioral]
+A/BCD_Adder_ndigit_Behavioral=22|../src/design.v|195|1*2647601
+BinW64/BCD_Adder_ndigit_Behavioral=3*1776544
+R=../src/design.v|195
+SLP=3*1778417
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dc00ec1682264dfbdea0acf489f5e918d80b2be0c27998ee4ec1aa158b5610082b27f395414cb6372ac84807d280eaf22a
+
+[BCD_Adder_ndigit_Cla]
+A/BCD_Adder_ndigit_Cla=22|../src/design.v|156|1*2644722
+BinW64/BCD_Adder_ndigit_Cla=3*1773596
+R=../src/design.v|156
+SLP=3*1775688
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dca90f03424f410eeac3660770ed96b307a787add0ec16564e175fe64c275ceba3
+
+[BCD_Adder_ndigit_Cla_Err]
+A/BCD_Adder_ndigit_Cla_Err=22|../src/design.v|225|1*887413
+BinW64/BCD_Adder_ndigit_Cla_Err=3*553368
+R=../src/design.v|225
+SLP=3*555755
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dc605a33b5b4abb89baeca6ef0c6a66cb4e95091a293c8d32167900565044c4dc69b20ea72d82905abfd4d6a883e13f8a3
+
+[BCD_Adder_ndigit_Ripple]
+A/BCD_Adder_ndigit_Ripple=22|../src/design.v|59|1*2633721
+BinW64/BCD_Adder_ndigit_Ripple=3*1768424
+R=../src/design.v|59
+SLP=3*1770613
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dc2815732c84c9deaefa2bc570929cc33926527262ddaa47cb266f3a3c4d9b973aac0330b9d22cb4a54fb6a28f3c2c0df8
+
+[BCD_Adder_ndigit_Ripple_Err]
+A/BCD_Adder_ndigit_Ripple_Err=22|../src/design.v|91|1*869907
+BinW64/BCD_Adder_ndigit_Ripple_Err=3*544006
+R=../src/design.v|91
+SLP=3*546396
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|493a8de0a1608f7458809b7712a947dc8f010a0077da4d3295377fb2f6c83f8444594123fe4a77fc0a172e28c6049758eaca641c912ceeb65727ed83d70e67e6
+
+[Carry_LA_4bit]
+A/Carry_LA_4bit=22|../src/design.v|100|1*2636579
+BinW64/Carry_LA_4bit=3*1771466
+R=../src/design.v|100
+SLP=3*1772129
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8b3723e5bc020eb72854c80171b074b527d6168b2ad5318a915cf154e82b754d275155f2df79d1f99418f995639d9e24
+
+[ClA_BCD_1digit]
+A/ClA_BCD_1digit=22|../src/design.v|134|1*2642031
+BinW64/ClA_BCD_1digit=3*1772798
+R=../src/design.v|134
+SLP=3*1773229
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0c73ef5b24a54ec0ea8816aa20622f0d477269b61791fbeb916ea8e7af33ea17c76cc565e0bed932b20061405c41821b
+
+[ClA_BCD_1digit_error]
+A/ClA_BCD_1digit_error=22|../src/design.v|176|1*881775
+BinW64/ClA_BCD_1digit_error=3*549611
+R=../src/design.v|176
+SLP=3*550057
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|0c73ef5b24a54ec0ea8816aa20622f0d284681f79f04118aa12a07e58d017216399b510da9307d5014e7b5f7da75a34e
+
+[DFF]
+A/DFF=22|../src/design.v|55|1*101830
+BinW64/DFF=3*43780
+R=../src/design.v|55
+SLP=3*44102
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|44300fc340e3bc7a054c52d81b175af6c383e8e665c2ff5f0ff39e8452519c6b
+
+[DFF_reset]
+A/DFF_reset=22|../src/design.v|95|1*841030
+BinW64/DFF_reset=3*526550
+R=../src/design.v|95
+SLP=3*526927
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2446e5173fb2965926fff4f079374b907dfc6f05ee8e6f6ef8e193ad7962819ee0d29c38b8abed9606159d1252903e55
+
+[adder4_bit]
+A/adder4_bit=22|../src/design.v|21|1*2629159
+BinW64/adder4_bit=3*1766578
+R=../src/design.v|21
+SLP=3*1767277
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1028020fdbc08b4495faca28fe3759a0f2935d7b3d5a5fc063fe30d8c405806268055f232699374bc2385c41dd3cad5b
+
+[bcd_verifier]
+A/bcd_verifier=22|../src/design.v|158|1*953258
+BinW64/bcd_verifier=3*594562
+R=../src/design.v|158
+SLP=3*596600
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ae73ef4291e8acbcd7acff4d2a104e476d25ba7161de53a5f3b736fc8e4dc6f169b9a29fdd5e20d5c4e36120cda190b1
+
+[full_adder]
+A/full_adder=22|../src/design.v|6|1*2627411
+BinW64/full_adder=3*1766338
+R=../src/design.v|6
+SLP=3*1766458
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933ee5d5caa000e026eacc0383ee6e1f5569
+
+[tb_BCD_Adder_ndigit]
+A/tb_BCD_Adder_ndigit=22|../src/design.v|211|1*1338989
+BinW64/tb_BCD_Adder_ndigit=3*834283
+R=../src/design.v|211
+SLP=3*836775
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|398f23ad2a16f6a0c5750b00f7a828e39d305c1284bf3de6d627045568171b2a4a1a2e738b453291f729f8ee9ea90cdb
+
+[testadd]
+A/testadd=22|../src/design.v|16|1*16991
+BinW64/testadd=3*7687
+R=../src/design.v|16
+SLP=3*8398
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|5a3888cb73d8541ff9e8c7f5c7dba63f26527262ddaa47cb266f3a3c4d9b973a802aab20c9e57fe0228bbe8f8bbc21ae
+
+[testbench]
+A/testbench=22|../src/design.v|230|1*1107669
+BinW64/testbench=3*688693
+R=../src/design.v|230
+SLP=3*690554
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d7913822e66ae597278d34c3d0478b4d46ecf
+
+[~U]
+$root=12|0*715185|
+BCD1_digit=12|0*715983|
+BCD1_digit_error=12|0*237290|
+BCD_Adder_Test_All=12|0*717582||0x10
+BCD_Adder_ndigit=12|0*39474||0x10
+BCD_Adder_ndigit_Behavioral=12|0*717287|
+BCD_Adder_ndigit_Cla=12|0*717005|
+BCD_Adder_ndigit_Cla_Err=12|0*239167|
+BCD_Adder_ndigit_Ripple=12|0*716228|
+BCD_Adder_ndigit_Ripple_Err=12|0*237835|
+Carry_LA_4bit=12|0*716516|
+ClA_BCD_1digit=12|0*716748|
+ClA_BCD_1digit_error=12|0*238618|
+DFF=12|0*39285||0x10
+DFF_reset=12|0*230983||0x10
+adder4_bit=12|0*715759|
+bcd_verifier=12|0*254254|
+full_adder=12|0*715543|
+tb_BCD_Adder_ndigit=12|0*346736||0x10
+testadd=12|0*8801||0x10
+testbench=12|0*291296||0x10

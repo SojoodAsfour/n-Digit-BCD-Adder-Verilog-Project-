@@ -1,0 +1,25 @@
+Active-HDL 15.0.261.9132 2025-06-15 22:36:59
+
+Elaboration top modules:
+Verilog Module                BCD_Adder_Test_All
+
+
+-------------------------------------------------------------------------------------------------
+Verilog Module              | Library   | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------------
+BCD_Adder_Test_All          | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+BCD_Adder_ndigit_Ripple     | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+BCD_Adder_ndigit_Cla        | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+BCD_Adder_ndigit_Behavioral | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+BCD1_digit                  | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+adder4_bit                  | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+full_adder                  | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ClA_BCD_1digit              | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Carry_LA_4bit               | bcd_adder |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------
+Library                     | Comment
+-------------------------------------------------------------------------------------------------
+bcd_adder                   | None
+-------------------------------------------------------------------------------------------------
